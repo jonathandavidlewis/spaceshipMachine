@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  </head>
+  <body>
+    <div class="container">
+  <h1 class = "text-center" id="textSpace">The space ship machine</h1>
+  <div class="container-fluid" id="spaceShipMaker">
+    <p class="text-center">
+    Use the fields below to create your space ship.
+    </p>
+    <form>
+      <input type="text" name="shipName" value="Ship Name"><br>
+      <input type="radio" name="weapon" value="EMP" checked> EMP<br>
+  <input type="radio" name="weapon" value="laserCannons"> Laser Cannons<br>
+      <input type="radio" name="weapon" value="other"> Rockets</br>
+  price:<br>
+  <input type="text" name="price" value="Ship cost"><br><br>
+    
+  
+  
+  
+  <button class = "text-center" id="manufactureShip" onclick="makeShip();">Manufacture ship</button>
+  </form>
+  <hr/>
+  <form>
+  
+    
+    
+   <button class = "text-center" id="displayShips" onclick="shipList.forEach(displayShips)">Display ships</button>
+  </form>
+  <div id="shipDisplay"></div>
+
+
+  
+  
+  
+        </div>
+    </div>
+  </body>
+</html>
